@@ -1,0 +1,138 @@
+/*	--------------------------------------------------
+	Reveal Modals
+	-------------------------------------------------- */
+
+	.reveal-modal-bg {
+		position: fixed;
+		height: 100%;
+		width: 100%;
+		background: #000;
+		background: rgba(0,0,0,.8);
+		z-index: 100;
+		display: none;
+		top: 0;
+		left: 0;
+		}
+
+	.reveal-modal-callback__content {
+		visibility: hidden;
+		top: 100px;
+		left: 50%;
+		margin-left: -300px;
+		width: 520px;
+		background: #eee url(modal-gloss.png) no-repeat -200px -80px;
+		position: absolute;
+		z-index: 101;
+		padding: 30px 40px 34px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		}
+
+	.reveal-modal-callback__content.small 		{ width: 200px; margin-left: -140px;}
+	.reveal-modal-callback__content.medium 		{ width: 400px; margin-left: -240px;}
+	.reveal-modal-callback__content.large 		{ width: 600px; margin-left: -340px;}
+	.reveal-modal-callback__content.xlarge 		{ width: 800px; margin-left: -440px;}
+
+	.reveal-modal-callback__close {
+		font-size: 22px;
+		line-height: .5;
+		position: absolute;
+		top: 8px;
+		right: 11px;
+		color: #aaa;
+		text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+		font-weight: bold;
+		cursor: pointer;
+		}
+	/*
+
+	NOTES
+
+	Close button entity is &#215;
+
+	Example markup
+
+	<div id="myModal" class="reveal-modal">
+		<h2>Awesome. I have it.</h2>
+		<p class="lead">Your couch.  I it's mine.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices aliquet placerat. Duis pulvinar orci et nisi euismod vitae tempus lorem consectetur. Duis at magna quis turpis mattis venenatis eget id diam. </p>
+		<a class="close-reveal-modal">&#215;</a>
+	</div>
+
+	*/
+
+	.reveal-modal-callback__form input[type="text"],
+.reveal-modal-callback__form input[type="tel"] {
+  width: 100%;
+  height: 4vh;
+  margin-bottom: 2.2vh;
+  padding: 0 2.0vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font: inherit;
+  font-size: 1.8vh;
+  line-height: 1.9vh;
+  border-radius: 5px;
+  border: solid 1px #dadada;
+}
+
+.reveal-modal-callback__form input[type="text"]::-webkit-input-placeholder,
+.reveal-modal-callback__form input[type="tel"]::-webkit-input-placeholder {
+  font-size: 1.7vh;
+}
+
+.reveal-modal-callback__form input[type="text"]:-ms-input-placeholder,
+.reveal-modal-callback__form input[type="tel"]:-ms-input-placeholder {
+  font-size: 1.7vh;
+}
+
+.reveal-modal-callback__form input[type="text"]::-ms-input-placeholder,
+.reveal-modal-callback__form input[type="tel"]::-ms-input-placeholder {
+  font-size: 1.7vh;
+}
+
+.reveal-modal-callback__form input[type="text"]::placeholder,
+.reveal-modal-callback__form input[type="tel"]::placeholder {
+  font-size: 1.7vh;
+}
+
+.reveal-modal-callback__inputs {
+  color: black;
+}
+
+.reveal-modal-callback__btn {
+  width: 100%;
+  height: 7vh;
+  margin: 0;
+  margin-bottom: 0.5vh;
+  font: inherit;
+  font-weight: 400;
+  font-size: 2.0vh;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  background-color: #039569;
+  /* -webkit-transition: all .8s ease;
+  transition: all .8s ease; */
+  cursor: pointer;
+}
+
+.reveal-modal-callback__btn:hover {
+  /* -webkit-transition: all .8s ease;
+  transition: all .8s ease; */
+  background-color: #039569;
+}
+
+.main-feedback-p {
+  z-index: -1;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  font-size: 1.5vh;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 48px;
+}
