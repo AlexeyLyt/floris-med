@@ -105,7 +105,7 @@
         <a href="#" class="callbacks_nav callbacks_nav next">Next</a> -->
     </div>
 
-    <div class="scroll"></div>
+    <a class="scroll" href="#prices"></a>
 
 </div>   <!-- /Слайдер -->
 
@@ -162,7 +162,7 @@
 			  </div>
         <div class="clearfix"></div>
         <div class="wow fadeInLeftBig doctor-self-next" data-wow-delay="0.2s">
-          <p><b>Осуществляем уход за больными и престарелыми:</b> после хирургических вмешательств, с острым нарушением мозгового кровообращения, рассеянным склерозом, с парезами и параличами, после нейрохирургических вмешательств, «спинальными» больными, профилактика и лечение пролежней, уход за катетерами и дренажами, различными заболеваниями общетерапевтического профиля.</p>
+          <!-- <p><b>Осуществляем уход за больными и престарелыми:</b> после хирургических вмешательств, с острым нарушением мозгового кровообращения, рассеянным склерозом, с парезами и параличами, после нейрохирургических вмешательств, «спинальными» больными, профилактика и лечение пролежней, уход за катетерами и дренажами, различными заболеваниями общетерапевтического профиля.</p> -->
           <p><b>Уход осуществляется в стационаре и на дому:</b> в нашей патронажной службе работают квалифицированные медицинские сёстры, сиделки, имеющие большой опыт работы. В каждой семье может случиться несчастье, когда кто-то из близких в силу обстоятельств, прикован к постели или пожилой человек не может обходиться без посторонней помощи. В такие моменты мало одной жалости и желания помочь близкому - нужны знания и время. Иными словами - помощь должна быть профессиональной. Уход за больными людьми — трудная работа, особенно в психологическом плане. Сиделка помимо профессиональных навыков должна обладать такими качествами как милосердие, доброжелательность и честность. Выздоровление больного, возвращение его к полноценной жизни, несомненно, зависит от качества работы сиделки. Когда родные уходят из дома, человек остается наедине со своим недугом. Наши квалифицированные сиделки помогут вам и вашим близким.</p>
           <p><b>Для того чтобы заказать услуги сиделки</b> для пожилых людей, вам нужно позвонить по одному из указанных номеров(<a href="tel:+7(499)2888237" style="text-decoration:underline;font-weight:bold;cursor:pointer;">+7(499) 288-82-37;</a> <a href="tel:+7(964)7146093" style="text-decoration:underline;font-weight:bold;cursor:pointer;">+7(964) 714-60-93;</a> <a href="tel:+7(966)0310480" style="text-decoration:underline;font-weight:bold;cursor:pointer;">+7(966) 031-04-80;</a> <a href="tel:+7(965)2604613" style="text-decoration:underline;font-weight:bold;cursor:pointer;">+7(965) 260-46-13;</a> <a href="tel:+7(965)2593864" style="text-decoration:underline;font-weight:bold;cursor:pointer;">+7(965) 259-38-64</a>) или <a style="text-decoration:underline;font-weight:bold;cursor:pointer;"data-reveal-id="reveal-modal-callback" data-animation="fade">заполнить заявку в режиме онлайн</a>. В любом случае мы найдем для вас сиделку, которая будет соответствовать всем требованиям.</p>
           <br>
@@ -272,7 +272,7 @@
 <!-- ОКОНЧАНИЕ БЛОКА НАШИ ПРЕИМУЩЕСТВА -->
 
   <!-- БЛОК НАШИ УСЛУГИ -->
-  <section class="price-list sec">
+  <section class="price-list sec" id="prices">
     <div class="container container.price" style="width: 100%;">
       <div class="line-top wow fadeInLeftBig" data-wow-delay="0.5s"></div>
         <h2 class="price-list-h2 high-left wow fadeInDown h-psevdo-3">НАШИ УСЛУГИ</h2>
@@ -288,6 +288,7 @@
             </div>
             <div class="order-group">
               <a href="#" class="price-list-btn" data-reveal-id="reveal-modal-callback" data-animation="fade">ЗАКАЗАТЬ</a>
+              <a href="/sidelka-s-prozhivaniem.php" class="price-list-btn">ПОДРОБНЕЕ</a>
             </div>
           </div>
           <div class="price-box2 price-box wow fadeInUpBig" data-wow-delay="0.2s">
@@ -299,6 +300,7 @@
             </div>
             <div class="order-group">
               <a href="#" class="price-list-btn" data-reveal-id="reveal-modal-callback" data-animation="fade">ЗАКАЗАТЬ</a>
+              <a href="/sidelka-prihodyaschaya.php" class="price-list-btn">ПОДРОБНЕЕ</a>
             </div>
           </div>
           <div class="price-box3 price-box wow fadeInUpBig" data-wow-delay="0.3s">
@@ -310,6 +312,7 @@
             </div>
             <div class="order-group">
               <a href="#" class="price-list-btn" data-reveal-id="reveal-modal-callback" data-animation="fade">ЗАКАЗАТЬ</a>
+              <a href="/sidelka-sutochnaya.php" class="price-list-btn">ПОДРОБНЕЕ</a>
             </div>
           </div>
           <div class="price-box4 price-box wow fadeInUpBig" data-wow-delay="0.4s">
@@ -321,6 +324,7 @@
             </div>
             <div class="order-group">
               <a href="#" class="price-list-btn" data-reveal-id="reveal-modal-callback" data-animation="fade">ЗАКАЗАТЬ</a>
+              <a href="/sidelka-v-bolnizu.php" class="price-list-btn">ПОДРОБНЕЕ</a>
             </div>
           </div>
         </div>
@@ -375,10 +379,10 @@
           <a href="/sidelki.php" class="personal-img personal-img-8">
             <a href="#" class="a-personal-img"></a>
           </a>
-          <div class="personal-info"><b>Алла Николаевна</b></div>
-          <div class="personal-info"><b>Возраст:</b><span> 53 года</span></div>
-          <div class="personal-info"><b>Опыт:</b><span> 8 лет</span></div>
-          <div class="personal-info"><b>Гражданство:</b><span> Украина</span></div>
+          <div class="personal-info"><b>Татьяна Николаевна</b></div>
+          <div class="personal-info"><b>Возраст:</b><span> 49 года</span></div>
+          <div class="personal-info"><b>Опыт:</b><span> 5 лет</span></div>
+          <div class="personal-info"><b>Гражданство:</b><span> Россия</span></div>
           <div class="personal-info personal-info-btn">
             <a href="/sidelki.php">Подробнее</a>
           </div>

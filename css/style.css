@@ -713,8 +713,18 @@ ul.cl-effect-21 li:hover {
 
 .more-question-about-p {
   width: 100%;
-  color: red;
-  font-size: 15px; }
+  color: #ff0000d4;
+  font-size: 15px;
+  font-weight: bold; }
+
+  .more-question-about-btn {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .more-question-about-btn .price-list-btn {
+    margin: 0;
+  }
 
 .item-more-question {
   width: 30%;
@@ -762,7 +772,7 @@ ul.cl-effect-21 li:hover {
 
 .item-more-question p {
   font-weight: 600;
-  color: red; }
+  color: #ff0000d4; }
 
 .main-about-icon-phone,
 .main-about-icon-timework,
@@ -885,7 +895,7 @@ a.about-desc-button:hover, a.about-bottom-info-button:hover {
 
 .portfolio_top h4, .support_top h4, .contact_top h4 {
   text-align: center;
-  margin: 0 0 1.5em;
+  margin: 0 0 25px;
   font-size: 2.5em;
   font-weight: 600;
   font-family: 'Oswald', sans-serif; }
@@ -3523,7 +3533,8 @@ nav a:hover:after {
   left: 2px;
   right: 0;
   margin: 0 auto;
-  z-index: 5; }
+  z-index: 5;
+  display: block; }
   @media (max-width: 570px) {
     .scroll {
       width: 22px;
@@ -4441,7 +4452,7 @@ a.dogs-top-food:hover {
   width: 210px;
   height: 210px;
   margin-bottom: 10px;
-  border: 4px solid #008e55;
+  /* border: 4px solid #008e55; */
   border-radius: 100px;
   background: url(/images/sidelka.jpg) center center/cover no-repeat; }
 
@@ -4490,13 +4501,14 @@ a.dogs-top-food:hover {
   background: url(/images/sidelki/dyvalko.jpg) center center/cover no-repeat; }
 
 .personal-img-8 {
-  background: url(/images/sidelki/sektimenko.jpg) center center/cover no-repeat; }
+  background: url(/images/sidelki/tatyana.jpeg) center center/cover no-repeat; }
 
 .personal-info-btn {
   width: 60% !important;
   height: 40px;
   position: relative;
-  margin-top: 10px; }
+  margin-top: 10px;
+  margin-right: 10px; }
   .personal-info-btn:after {
     content: '';
     -webkit-transition: all 0.5s;
@@ -4579,6 +4591,23 @@ a.dogs-top-food:hover {
 .personal-info {
   width: 100%;
   text-align: center; }
+
+  .personal-info-btn-container {
+    display: flex;
+  }
+
+  .personal-info-btn.order a {
+    background-color: white;
+    color: #008e55;
+    font-weight: bold;
+    border: 3px solid #008e55;
+    line-height: 36px;
+  }
+  
+  .personal-info-btn.order a::before {
+    border-radius: 5px;
+    background-color: #005c37;
+  }
 
 .personal-info > span {
   color: #009667;
@@ -4854,6 +4883,10 @@ a.dogs-top-food:hover {
   @media (max-width: 700px) {
     .contact-first-items {
       width: 100%; } }
+
+.contact-first-item-clickable {
+  cursor: pointer;
+}
 
 .contact-first-item {
   width: 100%;
@@ -8100,6 +8133,14 @@ a.dogs-top-food:hover {
 .contact-us-down {
   padding: 3em 0 2em; }
 
+.contact-us-down-tel-containter {
+  display: flex;
+  margin-bottom: 5px;
+}
+.contact-us-down-tel-containter svg {
+  margin-right: 5px;
+}
+
 .map iframe {
   width: 100%;
   height: 350px;
@@ -8135,7 +8176,7 @@ a.dogs-top-food:hover {
 .contact-us-info input[type="submit"] {
   outline: none;
   border: none;
-  background-color: #27B6DE;
+  background-color: #008e55;
   color: #fff;
   padding: 9px 45px;
   font-weight: 600;
@@ -8152,7 +8193,7 @@ a.dogs-top-food:hover {
   -o-border-radius: 8px; }
 
 .contact-us-info input[type="submit"]:hover {
-  background-color: #186A7E; }
+  background-color: #42b08f; }
 
 .contact-us-left h5 {
   color: #6E6E6E;
@@ -8170,13 +8211,15 @@ a.dogs-top-food:hover {
   font-size: 15px;
   padding-bottom: 1.3em; }
 
-.contact-left h5 {
+.contact-left h5,
+.contact-us-info h5 {
   font-family: 'Oswald', sans-serif;
   text-align: center;
   font-weight: 600;
   font-size: 25px;
   margin-bottom: 26px;
-  color: #060E3E; }
+  color: #060E3E;
+  text-align: left; }
 
 .contact-left p {
   color: #999;
@@ -9012,6 +9055,8 @@ strong {
   border-radius: 100px;
   -webkit-transition: all .8s ease;
   transition: all .8s ease;
+  margin-right: 10px;
+  margin-bottom: 10px;
   visibility: hidden; }
   .slider-services-info-btn:hover {
     background-color: #039569;
@@ -9081,7 +9126,7 @@ strong {
       padding: 40px 5px 0px 5px; } }
 
 .sidelka-item {
-  border: 3px solid #000047;
+  /* border: 3px solid #000047; */
   border-radius: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9354,7 +9399,7 @@ strong {
 
 .sidelka-main-info {
   width: 70%;
-  border-left: 3px solid #000047; }
+  border: 3px solid #000047; }
   @media (max-width: 600px) {
     .sidelka-main-info {
       width: 60%;

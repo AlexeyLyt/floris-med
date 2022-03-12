@@ -1,8 +1,8 @@
 <!--форма обратной связи-->
 <div class="contact-index">
 	<div class="contact-first-items">
-		<div class="contact-first-item contact-first-item-1"></div>
-		<div class="contact-first-item"><h3>ОТПРАВИТЬ <span>ЗАЯВКУ<span></h3></div>
+		<a class="contact-first-item contact-first-item-clickable contact-first-item-1" data-reveal-id="reveal-modal-callback" data-animation="fade"></a>
+		<a class="contact-first-item contact-first-item-clickable" data-reveal-id="reveal-modal-callback" data-animation="fade"><h3>ОТПРАВИТЬ <span>ЗАЯВКУ<span></h3></a>
 		<div class="contact-first-item">
 			Вы можете перезвонить нам или оставить заявку на патронаж, в форме связи.<br>
 			Мы проконсультируем и подберём лучший вариант для Вас
@@ -11,8 +11,8 @@
 	<div class="contact-second-items">
 		<div class="contact-second-item"><h3>Заказать ОБРАТНЫЙ <span>ЗВОНОК<span></h3></div>
 		<form class="contact-second-form" method="post" action="mail.php">
-			<input class="contact-second-input-name" name="name" type="text" placeholder="Ваше имя">
-			<input class="contact-second-input-phone" name="phone" type="text" placeholder="Контактный телефон">
+			<input class="contact-second-input-name" name="name" type="text" placeholder="Ваше имя" required="">
+			<input class="contact-second-input-phone" name="phone" type="text" placeholder="Контактный телефон" required="">
 			<input class="contact-second-input-submit" type="submit" value="Отправить сообщение">
 		</form>
 	</div>

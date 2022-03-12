@@ -65,6 +65,7 @@
       <h2 class="wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.2s">Сиделка для инвалида</h2>
       <div class="slider-services-text sutochnaya-text wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.3s">Мы предоставляем качественную помощь на дому в Москве и области для людей преклонного возраста и лежачим больным, нуждающимся в уходе в послеоперационный период.</div>
       <a href="#services-about" class="slider-services-info-btn wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0.5s">Подробнее</a>
+      <a href="#" class="slider-services-info-btn wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0.5s" data-reveal-id="reveal-modal-callback" data-animation="fade">Оставить заявку</a>
     </div>
 </div>
 

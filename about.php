@@ -177,6 +177,9 @@
    <div class="more-question-about">
 	   <h2>ОСТАЛИСЬ ВОПРОСЫ?</h2>
 	   <p class="more-question-about-p">СВЯЖИТЕСЬ С НАМИ УДОБНЫМ ДЛЯ ВАС СПОСОБОМ</p>
+	   <div class="more-question-about-btn">
+            <a href="#" class="price-list-btn" data-reveal-id="reveal-modal-callback" data-animation="fade">ОСТАВИТЬ ЗАЯВКУ</a>
+    	</div>
 	   <div class="item-more-question item-more-question-1">
 	   		<svg class="main-about-icon main-about-icon-phone main-more-question-icon" width="24" height="24">
 		   		<use xlink:href="#icon-phone"></use>
